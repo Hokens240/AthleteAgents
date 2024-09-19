@@ -39,8 +39,12 @@
     padding-top: 60px;
 }
 
-.second-row {
-    padding-top: 130px;
+.second-row-one {
+    padding-top: 150px;
+}
+
+.second-row-two {
+    padding-top: 100px;
 }
 
 .card {
@@ -67,8 +71,8 @@
   );
 
   border-radius: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -92,6 +96,16 @@ hr {
     border-radius: 20px;
     padding-right: 50px;
     padding-left: 50px;
+    color: white;
+}
+
+.upper-card {
+    background-color: #35E08F;
+    border-radius: 25px;
+}
+
+.popular {
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -108,4 +122,36 @@ hr {
         padding-top: 80px;
         font-size: 20px;
     }
-}
+    .second-row-one {
+        padding-top: 120px;
+    }
+    
+    .second-row-two {
+        padding-top: 40px;
+    }
+
+    body {
+        background-image: linear-gradient(
+    140deg,
+    hsl(260deg 100% 9%) 0%,
+    hsl(260deg 99% 8%) 6%,
+    hsl(260deg 97% 8%) 12%,
+    hsl(260deg 96% 8%) 18%,
+    hsl(260deg 94% 8%) 24%,
+    hsl(260deg 93% 8%) 29%,
+    hsl(260deg 92% 8%) 35%,
+    hsl(260deg 90% 7%) 41%,
+    hsl(260deg 89% 7%) 47%,
+    hsl(260deg 88% 7%) 53%,
+    hsl(260deg 86% 7%) 59%,
+    hsl(260deg 85% 7%) 65%,
+    hsl(260deg 84% 6%) 71%,
+    hsl(260deg 83% 6%) 76%,
+    hsl(260deg 81% 6%) 82%,
+    hsl(260deg 80% 6%) 88%,
+    hsl(260deg 79% 6%) 94%,
+    hsl(260deg 78% 5%) 100%
+  );
+    }
+
+    }
