@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
 .hero-main {
     height: 100vh;
 }
@@ -12,9 +14,17 @@
 }
 
 .hero-text {
+    font-family: "Hanken Grotesk", sans-serif;
     font-style: bold;
     font-weight: 700;
     font-size: 55px;
+}
+
+.btn-subscribe {
+    background-color: #35E08F;
+    font-style: bold;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 900;
 }
 
 .hero-img {
