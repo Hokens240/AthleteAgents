@@ -16,8 +16,8 @@
 .hero-h1 {
     font-family: "Hanken Grotesk", sans-serif;
     font-style: bold;
-    font-weight: 900;
-    font-size: 55px;
+    font-weight: 700;
+    font-size: 50px;
 }
 
 .hero-text {
@@ -38,7 +38,7 @@
 }
 
 .hero-img {
-    width: 600px;
+    width: 500px;
 }
 
 @media screen and (max-width: 1200px) {
