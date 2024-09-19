@@ -39,6 +39,61 @@
     padding-top: 60px;
 }
 
+.second-row {
+    padding-top: 130px;
+}
+
+.card {
+    background-image: linear-gradient(
+    140deg,
+    hsl(260deg 100% 9%) 0%,
+    hsl(260deg 99% 8%) 6%,
+    hsl(260deg 97% 8%) 12%,
+    hsl(260deg 96% 8%) 18%,
+    hsl(260deg 94% 8%) 24%,
+    hsl(260deg 93% 8%) 29%,
+    hsl(260deg 92% 8%) 35%,
+    hsl(260deg 90% 7%) 41%,
+    hsl(260deg 89% 7%) 47%,
+    hsl(260deg 88% 7%) 53%,
+    hsl(260deg 86% 7%) 59%,
+    hsl(260deg 85% 7%) 65%,
+    hsl(260deg 84% 6%) 71%,
+    hsl(260deg 83% 6%) 76%,
+    hsl(260deg 81% 6%) 82%,
+    hsl(260deg 80% 6%) 88%,
+    hsl(260deg 79% 6%) 94%,
+    hsl(260deg 78% 5%) 100%
+  );
+
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "DM Sans", sans-serif;
+}
+
+hr {
+    border: 1px dotted white;
+}
+
+.card .card-body .monthly {
+    font-size: 20px;
+}
+
+.card .card-body .price {
+    font-size: 40px;
+}
+
+.btn-subscribe {
+    background-color: #35E08F;
+    font-style: bold;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 900;
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 @media screen and (max-width: 1200px) {
     .hero-logo {
         width: 450px;
