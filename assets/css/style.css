@@ -13,11 +13,18 @@
     background-color: #010101;
 }
 
+.hero-h1 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 55px;
+}
+
 .hero-text {
     font-family: "Hanken Grotesk", sans-serif;
     font-style: bold;
-    font-weight: 700;
-    font-size: 55px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .btn-subscribe {
@@ -25,6 +32,9 @@
     font-style: bold;
     font-family: "Hanken Grotesk", sans-serif;
     font-weight: 900;
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .hero-img {
